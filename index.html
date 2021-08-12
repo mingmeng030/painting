@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Let's Paint!🎨</title>
+</head>
+<body>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+        <div class="controls_range">
+            <input type="range" id="jsRange" min="1" max="20" value="10" steps="1">
+        </div>
+
+        <div class="controls_btns">
+            <button id="jsMode">Fill</button>
+            <button id="jsClear">Clear</button>
+        </div>
+
+        <div class="controls_colors" if="jsColors">
+            <div class="controls_color jsColor" style="background-color: black;"></div>
+            <div class="controls_color jsColor" style="background-color: white;"></div>
+            <div class="controls_color jsColor" style="background-color: rgb(219, 42, 42);"></div>
+            <div class="controls_color jsColor" style="background-color: rgb(255, 123, 0);"></div>
+            <div class="controls_color jsColor" style="background-color: rgb(255, 196, 0);"></div>            <div class="controls_color jsColor" style="background-color: rgb(81, 119, 64);"></div>
+            <div class="controls_color jsColor" style="background-color: rgb(41, 56, 121);"></div>
+            <div class="controls_color jsColor" style="background-color: rgb(87, 34, 122);"></div>
+            <div class="controls_color jsColor" style="background-color: rgb(168, 81, 135);"></div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
